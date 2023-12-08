@@ -18,6 +18,8 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("test");
         DataBase dataBase = new DataBase();
         ActorService actorService = new ActorServiceImpl();
         LinkedList<Actor> actors = new LinkedList<>(List.of(
